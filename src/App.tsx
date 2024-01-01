@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Characters from "./components/Characters";
 import Statistics from "./components/Statistics";
 import Contact from "./components/Contact";
+import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([

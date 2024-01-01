@@ -1,0 +1,22 @@
+.font-link {
+	font-family: 'Inknut Antiqua';
+}
+
+p
+{
+	text-align: center;
+}
+
+button
+{
+	border: none;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Inknut Antiqua';
+	background-color: #ffffff;
+}
+
+#title
+{
+	text-align: center;
+}
