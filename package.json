@@ -16,7 +16,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
+    "react": "/node_modules/react",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1"
   },
