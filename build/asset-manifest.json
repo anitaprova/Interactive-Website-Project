@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/anitaprova/Prisma-Skies/static/css/main.9fe2c538.css",
-    "main.js": "/anitaprova/Prisma-Skies/static/js/main.fb9bc2a0.js",
+    "main.js": "/anitaprova/Prisma-Skies/static/js/main.e5664222.js",
     "index.html": "/anitaprova/Prisma-Skies/index.html",
     "main.9fe2c538.css.map": "/anitaprova/Prisma-Skies/static/css/main.9fe2c538.css.map",
-    "main.fb9bc2a0.js.map": "/anitaprova/Prisma-Skies/static/js/main.fb9bc2a0.js.map"
+    "main.e5664222.js.map": "/anitaprova/Prisma-Skies/static/js/main.e5664222.js.map"
   },
   "entrypoints": [
     "static/css/main.9fe2c538.css",
-    "static/js/main.fb9bc2a0.js"
+    "static/js/main.e5664222.js"
   ]
 }

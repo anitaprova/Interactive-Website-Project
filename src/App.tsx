@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./components/Navbar.tsx";
+// import Navbar from "./components/Navbar.tsx";
 import Home from "./components/Home.tsx";
 import Characters from "./components/Characters.tsx";
 import Statistics from "./components/Statistics.tsx";
@@ -21,6 +21,11 @@ const router = createBrowserRouter([
   {
     path: "/stats",
     element: <Statistics />,
+  },
+
+  {
+    path: "/characters",
+    element: <Characters />,
   },
 ]);
 
