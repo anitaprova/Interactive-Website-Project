@@ -10,19 +10,23 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
-  },
-
-  {
-    path: "/contact",
-    element: <Contact />,
-  },
-
-  {
-    path: "/stats",
-    element: <Statistics />,
-  },
-]);
+    element: <Navbar />,
+    children: [
+      {
+        path: "/characters",
+        element: <Characters />,
+      },
+      {
+        path: "/statistics",
+        element: <Statistics />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+    ]
+  }
+]); 
 
 export default function App() {
   return <RouterProvider router={router} />;
