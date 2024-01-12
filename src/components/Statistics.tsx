@@ -1,6 +1,11 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 export default function Statistics() {
-	return <>
-	</>
+	return (
+    <>
+      <Navbar></Navbar>
+			
+    </>
+  );
 }
