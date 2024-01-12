@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Characters from "./components/Characters";
-import Statistics from "./components/Statistics";
-import Contact from "./components/Contact";
+// import Navbar from "./components/Navbar.tsx";
+import Home from "./components/Home.tsx";
+import Characters from "./components/Characters.tsx";
+import Statistics from "./components/Statistics.tsx";
+import Contact from "./components/Contact.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -21,6 +21,11 @@ const router = createBrowserRouter([
   {
     path: "/stats",
     element: <Statistics />,
+  },
+
+  {
+    path: "/character",
+    element: <Characters />,
   },
 ]);
 
