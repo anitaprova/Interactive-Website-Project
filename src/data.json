@@ -1,0 +1,43 @@
+{
+	"characters":[
+		{	
+			"Name": "Amari Inaya",
+			"Personality Traits": "People-pleaser, Observant",
+			"Occupation": "Dropped out after her freshman year",
+			"Fun Fact": "Journals to cope",
+			"img": "./src/assets/vincent.png"
+		},
+
+		{
+			"Name":"Benoni Inaya",
+      "Personality Traits": "Bad temper",
+      "Occupation": "College Student", 
+      "Fun Fact": "His friend died", 
+			"img": "./src/assets/vincent.png"
+		},
+
+		{
+			"Name":"Vincent Legend",
+			"Personality Traits": "Manipulative, narcissistic", 
+			"Occupation":"Job in his family's business",
+			"Fun Fact":"His real name is Mohammad but he changed it to Vincent Legend", 
+			"img": "./src/assets/vincent.png"
+		}, 
+
+		{
+			"Name":"Aurora",
+			"Personality Traits": "Well meaning", 
+			"Occupation":"Good Student",
+			"Fun Fact":"Very Broke", 
+			"img": "./src/assets/vincent.png"
+		}, 
+
+		{
+			"Name":"Amari's Father",
+			"Personality Traits": "Absent minded and horrible communicator", 
+			"Occupation":"Failing Business Owner",
+			"Fun Fact":"He has no fun facts!", 
+			"img": "./src/assets/dad.png"
+		}
+	]
+}
