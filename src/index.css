@@ -21,19 +21,10 @@ button
 
 body
 {
-	/* background-image: url(./assets/pole.png); */
 	background-size:contain;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
-}
-
-#title
-{
-	text-align: center;
-	font-family: 'Inknut Antiqua';
-	font-size: 3vw; /* % of the viewport's width */
-	background-color: #ffffff;
 }
 
 h1
@@ -41,6 +32,24 @@ h1
 	font-size: 300%;
 	text-align: center;
 	font-family: 'Inknut Antiqua';
+}
+
+/* homescreen */
+#homepage-image {
+	width: 100%;
+	height: 100%;
+	border-style: solid;
+	border-width: 5px;
+}
+
+area
+{
+	transition: transform .2s;
+}
+
+area:hover
+{
+	transform: scale(1.25);
 }
 
 /* contact */
