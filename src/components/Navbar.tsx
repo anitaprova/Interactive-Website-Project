@@ -8,10 +8,13 @@ export default function Navbar() {
     <NavLink to="/">Home</NavLink>
     <ul>
       <li>
-      <NavLink to="/stats">Statistics</NavLink>
+        <NavLink to="/characters">Characters</NavLink>
       </li>
       <li>
-      <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/stats">Statistics</NavLink>
+      </li>
+      <li>
+        <NavLink to="/contact">Contact</NavLink>
       </li>
     </ul>
     </nav>
