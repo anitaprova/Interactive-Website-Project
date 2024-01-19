@@ -13,10 +13,6 @@ const router = createBrowserRouter([
     element: <Navbar />,
     children: [
       {
-        path: "/home",
-        element: <Home />,
-      },
-      {
         path: "/characters",
         element: <Characters />,
       },

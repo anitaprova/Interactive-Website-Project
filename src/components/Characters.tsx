@@ -5,7 +5,6 @@ export default function Characters()
 {
 	return (
     <>
-      <Navbar></Navbar>
       <h1>Characters</h1>
       <div className="characterblock">
         <div>

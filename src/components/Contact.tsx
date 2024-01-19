@@ -4,7 +4,6 @@ import Navbar from "./Navbar";
 export default function Contact() {
   return (
     <>
-      <Navbar></Navbar>
       <h1>Contact Us</h1>
       <div className="contactblock">
         <div>
