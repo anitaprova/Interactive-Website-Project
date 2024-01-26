@@ -99,13 +99,11 @@ area:hover
 
 .character-item:hover
 {
-	/* border-color: rgb(205, 205, 205); */
 	transform: scale(1.05);
 }
 
 .character-item img
 {
-	/* margin-top: 8px; */
 	vertical-align: middle;
 	width: 100%;
 	height: auto;
@@ -137,4 +135,62 @@ area:hover
 		flex: 100%;
 		max-width: 100%;
 	}
+}
+
+/* story */
+.story-container
+{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 100px;
+}
+
+.choices
+{
+	position: relative;
+	width: 49%;
+	float: left;
+	height: 100%;
+	z-index: 1010101010;
+	text-align: center;
+
+	display: grid;
+	grid-template-rows: auto;
+	align-content: center;
+	gap: 75px;
+	place-self: center;
+}
+
+.choices-text
+{
+	font-size: medium;
+	font-family: 'Inknut Antiqua';
+	background-color: #d4d4d4;
+	padding: 10px;
+	cursor: pointer;
+	padding: 5%;
+}
+
+.story-text
+{
+	position: relative;
+	width: 49%;
+	float: right;
+	height: 100%;
+	background-color: #e1e1e1;
+	z-index: 1010101010;
+	text-wrap: wrap;
+
+	font-size: large;
+	border-style: solid;
+	border-width: 5px;
+	align-items: center;
+
+	display: grid;
+	grid-template-rows: auto;
+	place-self: center;
 }

@@ -7,7 +7,6 @@ export default function Home() {
       <Navbar />
       <div>
         <h1>Prisma Skies</h1>
-        {/* <img id="homepage-image" src="./src/assets/pole1.png"></img> */}
         <img
           src="./src/assets/pole1.png"
           id="homepage-image"
@@ -19,7 +18,7 @@ export default function Home() {
             target=""
             alt="Dad"
             title="Red"
-            href=""
+            href="/story-dad"
             coords="110,489,2,484,0,0,1918,0,1918,63,305,495"
             shape="poly"
           />

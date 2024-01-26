@@ -4,6 +4,7 @@ import Home from "./components/Home.tsx";
 import Characters from "./components/Characters.tsx";
 import Statistics from "./components/Statistics.tsx";
 import Contact from "./components/Contact.tsx";
+import StoryDad from "./components/story/StoryDad.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -26,6 +27,11 @@ const router = createBrowserRouter([
   {
     path: "/character",
     element: <Characters />,
+  },
+
+  {
+    path: "/story-dad",
+    element: <StoryDad />,
   },
 ]);
 
