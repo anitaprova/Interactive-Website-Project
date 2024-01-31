@@ -6,21 +6,11 @@ export default function Navbar() {
   return (
   <>
     <nav>
-    <ul>
+      <NavLink className="nav-link" to="/"><img src= "src\assets\icons\home.png" /></NavLink>
+      <NavLink className="nav-link" to="/characters"><img src= "src\assets\icons\characters.png" /></NavLink>
+      <NavLink className="nav-link" to="/stats"><img src= "src\assets\icons\stats.png" /></NavLink>
+      <NavLink className="nav-link" to="/contact"><img src= "src\assets\icons\contact.png" /></NavLink>
       {/* home.png is smaller and has more padding around the icon */}
-      <li>
-        <NavLink to="/"><img src= "src\assets\icons\home.png" /></NavLink>
-      </li>
-      <li>
-        <NavLink to="/characters"><img src= "src\assets\icons\characters.png" /></NavLink>
-      </li>
-      <li>
-        <NavLink to="/stats"><img src= "src\assets\icons\stats.png" /></NavLink>
-      </li>
-      <li>
-        <NavLink to="/contact"><img src= "src\assets\icons\contact.png" /></NavLink>
-      </li>
-    </ul>
     </nav>
 
     {/* The child route renders here using Outlet */}
